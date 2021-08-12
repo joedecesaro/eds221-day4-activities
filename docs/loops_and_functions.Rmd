@@ -96,7 +96,7 @@ wave_power_deep <- function(H, t) {
   P_deep <- 0.5 * (H ^ 2) * t
 }
 
-print(wave_power(H = seq(from = 0, to = 3, by = 0.2), t = 8))
+print(wave_power_deep(H = seq(from = 0, to = 3, by = 0.2), t = 8))
 
 ```
 
